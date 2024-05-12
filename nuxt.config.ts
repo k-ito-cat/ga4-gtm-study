@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+  srcDir: 'src/',
   devtools: { enabled: true },
   devServer: {
     port: 3000
@@ -13,8 +14,5 @@ export default defineNuxtConfig({
   ],
   gtm: {
     id: 'GTM-M2W4CHJF'
-  },
-  app: {
-    baseURL: '/ga4-gtm-study/'
   }
 })
