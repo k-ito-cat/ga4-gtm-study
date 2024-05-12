@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <p>Hallo world</p>
+  <div>
+    <p>GA4/GTM接続</p>
   </div>
 </template>
 <script setup lang="ts"></script>
