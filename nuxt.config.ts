@@ -13,5 +13,8 @@ export default defineNuxtConfig({
   ],
   gtm: {
     id: 'GTM-M2W4CHJF'
+  },
+  app: {
+    baseURL: '/src/'
   }
 })
