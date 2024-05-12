@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   ssr: false,
   srcDir: 'src/',
   devtools: { enabled: true },
-  devServer: {
-    port: 3000
-  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
