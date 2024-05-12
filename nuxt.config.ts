@@ -15,6 +15,6 @@ export default defineNuxtConfig({
     id: 'GTM-M2W4CHJF'
   },
   app: {
-    baseURL: '/src'
+    baseURL: '/ga4-gtm-study/'
   }
 })
